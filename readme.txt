@@ -1,8 +1,8 @@
 ﻿git init   创建本地仓库
 
-git add    添加文件到版本库暂存区!
+git add    添加文件到版本库暂存区
 
-git status 查阅暂存区的文件?
+git status 查阅暂存区的文件
 
 git commit 提交文件到当前分支   -m 添加提交注释
 
@@ -23,3 +23,7 @@ git log    查看提交版本记录
 git reflog 查看每次命令
 
 git reset --hard HEAD^   回退到上一个版本
+
+git remote add origin git@server-name:path/repo-name.git  关联一个远程库
+
+git push -u origin master第一次推送master分支的所有内容
